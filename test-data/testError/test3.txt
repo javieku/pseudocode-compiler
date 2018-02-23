@@ -1,0 +1,6 @@
+@ prueba tipos incorrectos
+
+int a;
+Real b;
+
+a = a +b;

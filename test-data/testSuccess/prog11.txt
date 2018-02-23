@@ -1,0 +1,22 @@
+@ Programa para probar while dentro de if
+@ Declaraciones
+int [10] lista;
+int i;
+int a;
+int j;
+@ Acciones
+in a; 
+if a > 0 then
+	i = 0;
+	while i < 10 do
+		in lista[i];
+		i = i + 1;
+	endwhile;
+else	
+	j = 0;
+	while j < 10 do
+		lista[j] = 0;
+		out lista[j];
+		j = j + 1;
+	endwhile;
+endif;

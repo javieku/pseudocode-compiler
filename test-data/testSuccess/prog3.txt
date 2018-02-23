@@ -1,0 +1,37 @@
+@ Programa para probar bucles
+
+tipo pointer tnodo tlista;
+
+tipo rec
+		int elem;
+		tlista sig;
+	endrec tnodo;
+
+@ Programa principal - declaraciones
+tlista lista;
+tlista listaini;
+tlista aux;
+int i;
+int a;
+
+@ acciones
+alloc lista;
+listaini = lista;
+i = 0;
+while i < 10 do
+	alloc lista^.sig;  @ no alloc lista;
+	lista^.elem = i;
+	i = i + 1;
+	a = lista^.elem;
+	out a;
+	lista = lista^.sig;
+endwhile;
+
+lista = listaini;
+while i > 0 do
+	aux = lista;
+	out aux^.elem;
+	lista = lista^.sig;
+	free aux;
+	i = i -1;
+endwhile;

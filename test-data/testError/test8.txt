@@ -1,0 +1,9 @@
+@ error-MaquinaP division por 0
+
+iNt euros;
+real a;
+int cantidad;
+
+cantidad = 5/0;
+out euros;
+centimos = (cantidad - (euros));

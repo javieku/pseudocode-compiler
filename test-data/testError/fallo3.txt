@@ -1,0 +1,7 @@
+@ Fallo while sin end
+int i;
+
+in i;
+while i>=0 do
+	i=i-1;
+out i;

@@ -1,0 +1,13 @@
+fun prueba(int a) returns int
+	return (a + 1);
+endif;
+end prueba;
+
+int sol1;
+int sol2;
+
+sol1 = 1;
+
+sol1  = prueba(sol1);
+
+out sol1;

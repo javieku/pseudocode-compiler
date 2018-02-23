@@ -1,0 +1,8 @@
+@ error-MaquinaP variable no inicializada
+iNt euros;
+real a;
+int cantidad;
+
+cantidad = (int) a;	@error
+out euros;
+centimos = (cantidad - (euros));

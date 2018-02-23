@@ -1,0 +1,10 @@
+@ error sintactico, en asignación
+real ca;
+iNt euros;
+rEAL centimos;
+
+int cantidad;
+3 = (int) cantidad;
+out euros;
+centimos = (cantidad - (euros + n));
+centimos = 3.98e-9;

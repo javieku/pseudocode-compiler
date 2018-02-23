@@ -1,0 +1,14 @@
+@ Programa para probar ifs
+@ Declaraciones
+int a;
+@ Acciones
+in a;
+if a >= 0 then
+	if a == 0 then
+		out 0;
+	else
+		out 1;
+	fi;
+else
+	out -1;
+endif;

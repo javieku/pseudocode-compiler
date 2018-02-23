@@ -1,0 +1,18 @@
+@ Programa para probar ifs dentro de while
+@ Declaraciones
+int [10] lista;
+int i;
+int j;
+@ Acciones
+i = 0;
+while i < 10 do
+	in lista[i];
+	i = i + 1;
+endwhile;
+j = 0;
+while j < 10 do
+	if lista[j]>=0 then
+		out j;
+	endif;
+	j = j + 1;
+endwhile;

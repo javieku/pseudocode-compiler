@@ -1,0 +1,15 @@
+@ Programa para probar ifs anidados
+@ Declaraciones
+int a;
+int b;
+@ Acciones
+in a;
+in b;
+if a > 0 then
+	out 1;
+	if b > 0 then
+		out 0;
+	endif;
+else
+	out -1;
+endif;

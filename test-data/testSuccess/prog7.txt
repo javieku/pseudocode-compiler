@@ -1,0 +1,17 @@
+fun prueba() returns int
+
+int a;
+in a;
+if(a == 0) then
+	return 1;
+else 
+	return 0;
+endif;
+
+end prueba;
+
+int sol;
+
+sol=prueba();
+
+out sol;

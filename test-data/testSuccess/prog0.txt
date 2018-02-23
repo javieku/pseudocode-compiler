@@ -1,0 +1,9 @@
+@ programa ejemplo correctamente construido
+real cantidad;
+int euros;
+real centimos;
+
+euros = 3;
+out euros = (int) (in cantidad);
+out centimos = cantidad - euros;
+centimos = 3.4E-23;

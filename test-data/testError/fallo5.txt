@@ -1,0 +1,10 @@
+@ Función sin end
+fun pepe (int a, int b) returns int
+	a = a + 1;
+	b = a * a;
+	return b;
+@ Declaraciones
+int i;
+int j;
+@ Acciones
+pepe(i,j);

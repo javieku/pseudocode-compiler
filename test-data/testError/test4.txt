@@ -1,0 +1,10 @@
+@ error léxico carácter no esperado
+real c~$a;
+iNt euros;
+rEAL centimos;
+
+int cantidad;
+euros = (int) cantidad;
+out euros;
+centimos = (cantidad - (euros + n));
+centimos = 3.98e-9;

@@ -1,0 +1,17 @@
+@ Programa de ejemplo
+tipo pointer tcelda tarbol;
+tipo rec
+	real valor;
+	tarbol izq;
+	tarbol der;
+	endrec tcelda;
+
+tipo pointer tarbol tarbolpunt;	
+
+tarbolpunt arbol;
+
+alloc arbol;
+alloc arbol^;
+arbol^^.valor = 5;
+free arbol^;
+free arbol;

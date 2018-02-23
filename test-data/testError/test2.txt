@@ -1,0 +1,5 @@
+@ prueba id duplicado
+
+int a;
+real b;
+real a;

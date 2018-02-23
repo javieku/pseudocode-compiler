@@ -1,0 +1,7 @@
+@ Fallo if sin end
+int i;
+
+in i;
+if i>=0 then
+	i=i+1;
+out i;

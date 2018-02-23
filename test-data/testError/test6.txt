@@ -1,0 +1,9 @@
+@ error sintactico, en asignación cantidad
+
+iNt euros;
+real a;
+int cantidad;
+cantidad = in a;
+out euros;
+centimos = (cantidad - (euros + n));
+centimos = a%0;

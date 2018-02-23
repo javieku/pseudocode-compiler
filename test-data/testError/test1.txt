@@ -1,0 +1,5 @@
+@ testea error id no declarado
+
+out 3;
+x = 3;
+out x;

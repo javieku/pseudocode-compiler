@@ -1,0 +1,4 @@
+@ Llamada a función no definida
+int a;
+int i;
+pepe(a,i);

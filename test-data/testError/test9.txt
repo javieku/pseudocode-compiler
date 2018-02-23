@@ -1,0 +1,8 @@
+@ error-MaquinaP función modulo con negativo
+
+iNt euros;
+real a;
+int cantidad;
+cantidad = 6%-5;
+out euros;
+centimos = (cantidad - (euros));

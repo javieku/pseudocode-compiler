@@ -1,0 +1,17 @@
+@funciones básicas
+
+fun sin_retorno()
+	out 5;
+end sin_retorno;
+
+fun con_retorno() returns int
+	out 6;
+	return 6;
+end con_retorno;
+
+int a;
+
+sin_retorno();
+a = con_retorno();
+
+out a;
