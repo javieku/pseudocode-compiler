@@ -1,6 +1,8 @@
 # About the project 
 
-It is language processor that takes as an input a pseucode Domain Specific Language (DSL) such as: 
+Language processor and interpreter of a simple pseudocode language.
+
+For example, the compiler takes the following program
 ```
 @ Declaration section
 int [10] list;
@@ -25,13 +27,11 @@ else
 endif;
 ```
 
-and  performs: 
+and performs: 
 
 1 - Lexical analysis by tokenizing the input program into valid elements of the language grammar.
 2 - Sintactical analysis by validating the grammar using a parse tree.
 
-As a result a virtual machine code is generated. This can be executed by the interpreter module provided in the project.
-
-# Architecture description 
-                                              
+As a result, virtual machine code that can be executed by the interpreter module provided in the project is generated.
+                          
 
