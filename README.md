@@ -29,8 +29,8 @@ endif;
 
 and performs: 
 
-1 - Lexical analysis by tokenizing the input program into valid elements of the language grammar.
-2 - Sintactical analysis by validating the grammar using a parse tree.
+1. Lexical analysis by tokenizing the input program into valid elements of the language grammar.
+2. Sintactical analysis by validating the grammar using a parse tree.
 
 As a result, virtual machine code that can be executed by the interpreter module provided in the project is generated.
                           
